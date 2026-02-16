@@ -6,3 +6,7 @@ The colors lab itself implemented a simple website using the lamp stack
 # Setup
 To setup the server, edit the php files with connection details for an authorized sql user you must create
 Run the application on a LAMP digital ocean droplet after cloning into /var/www/html or another configured directory
+
+# Class information
+Student: Samuel Leavitt (sa477571)
+COP4331
