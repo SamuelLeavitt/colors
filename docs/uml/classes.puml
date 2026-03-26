@@ -1,0 +1,23 @@
+@startuml
+
+class User {
+  - id : int
+  - firstName : String
+  - lastName : String
+  - login : String
+  - password : String
+  + login(login : String, password : String) : boolean
+  + logout() : void
+}
+
+class Color {
+  - id : int
+  - name : String
+  - userId : int
+  + addColor(name : String, userId : int) : void
+  + searchColor(search : String, userId : int) : String[]
+}
+
+User "1" -- "0..*" Color : owns
+
+@enduml
