@@ -1,0 +1,30 @@
+{
+  "name": "colors",
+  "version": "1.0.0",
+  "description": "A colors lab assignment for the COP4331 class Practice using git tracking The colors lab itself implemented a simple website using the lamp stack",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "echo \"linting not implemented yet\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamuelLeavitt/colors.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SamuelLeavitt/colors/issues"
+  },
+  "homepage": "https://github.com/SamuelLeavitt/colors#readme",
+  "devDependencies": {
+    "jest": "^30.3.0",
+    "jsdom": "^29.1.0",
+    "supertest": "^7.2.2"
+  }
+}
